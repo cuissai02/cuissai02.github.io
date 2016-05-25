@@ -49,13 +49,13 @@ L'architecture ouverte du système permet l'intégration de la plate-forme dans 
 DÉFIS
 - Structures de données hétérogènes sans interfaces automatisées
 - Le manque d'évolutivité et de flexibilité
-- les exigences élevées
+- les exigences élevées  
 STRATÉGIE
 - Création d'un contexte sémantique de données
-- gestion des données avec une grande évolutivité et performance
+- gestion des données avec une grande évolutivité et performance  
 SOLUTION
 - Consolidation des données dans Neo4j
-- développement de mini-applications pour certaines applications spécialisées
+- développement de mini-applications pour certaines applications spécialisées  
 RÉSULTATS
 - Base de connaissances centrale avec des interfaces vers d' autres systèmes
 - efficacité et flux de travail plus rapide dans toute la chaîne de valeur
