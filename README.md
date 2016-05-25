@@ -20,6 +20,8 @@ La preuve transparente de la véracité des données présentées est essentiell
 Les anciens silos de données devront être remplacés progressivement.
 Nous pouvons planifier et suivre tous les processus le long de la chaîne de valeur beaucoup plus efficacement.
 
+L'objectif est de mettre toutes les informations dans un modèle de données sémantique et le traiter pour le délivrer au plus grand nombre. Etre en mesure d'accéder rapidement et facilement aux données pertinentes dans toute la chaîne de valeur.
+
 #la solution
 
 Développer autour d'un système flexible et évolutif, une plate-forme logicielle open source avec Neo4j comme une base de données centrale qui simplifie et accélère le développement de solutions logicielles de façon spectaculaire. 
@@ -44,4 +46,17 @@ On peut facilement vérifier leur impact grâce à des modifications.
 les droits d'accès prédéfinis dans le Mini Apps permet à des groupes externes de visualiser et modifier les données connexes. Importer les données directement dans le système. 
 L'architecture ouverte du système permet l'intégration de la plate-forme dans le système hétérogène de la connaissance.
 
-
+DÉFIS
+- Structures de données hétérogènes sans interfaces automatisées
+- Le manque d'évolutivité et de flexibilité
+- les exigences élevées
+STRATÉGIE
+- Création d'un contexte sémantique de données
+- gestion des données avec une grande évolutivité et performance
+SOLUTION
+- Consolidation des données dans Neo4j
+- développement de mini-applications pour certaines applications spécialisées
+RÉSULTATS
+- Base de connaissances centrale avec des interfaces vers d' autres systèmes
+- efficacité et flux de travail plus rapide dans toute la chaîne de valeur
+- qui cultivent un systéme de platforme
