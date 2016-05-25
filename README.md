@@ -1,5 +1,19 @@
 # cuissai02.github.io
 Quelles sont les compétences utiles que je peux apprendre en quelques minutes?
+
+Il y a beaucoup de résultats possibles, mais il y en a trop pour être utiles. Le problème classique de trop quantité sans qualité intrinsèque. Le point de vue est que les données et les connexions entre les points de données sont précieux. Si un grand nombre de sources liées à une donnée particuliére, on peut supposé que ce serait plus important et lui a attribué un rang plus élevé dans les données recherchée. 
+
+
+Nous voyons le même phénomène dans l'espace de l' entreprise. La plupart des entreprises vivent dans l'âge AltaVista: la digitalisation, l'explosion de nouveaux appareils connectés et du big data ont conduit à un énorme volume d'informations.
+Trouver des points de vue pertinents, des résultats basés sur des relations contextuelles, pas dans myriade de points de données indépendants. 
+Nous voyons cela se produire parmi les adopteurs précoces et visionnaires dans des secteurs aussi divers que l' assurance , le transport , les télécommunications , la vente au détail , les soins de santé. 
+Et l'impact est tout aussi puissant que l'impact que Google avait sur le web. 
+Chacun de se poser, une question vitale singulière:
+
+"Que faire si je ne veux pas seulement recueillir des données, mais examiner les relations entr'elles et réimaginé nos activités au travers ces relations?" 
+
+Je crois que les entreprises prospères de demain éviteront d' être écrasé sous le poids de vastes volumes de données , car ils vont exploiter la puissance des relations. En faisant ce changement rapide - et en posant des questions en permanence des données orientées vers la relation - ces entreprises seront les premiers à entrer dans l'ère Google.
+
 # Le défi
 
 La connaissance est un ensemble de structures de données hétérogènes. 
