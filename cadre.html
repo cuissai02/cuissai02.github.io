@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Charset utf-8, compatibilite IE, et viewport pour comportement responsive-->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>cadre html</title>
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+        <style>
+            body {
+                background-color: black;
+                color:yellow;
+                font-family:Monospace;
+            }
+            .gray-backroung{
+                background-color: gray;}
+            h2 {color:blue;
+                font-size:45px;
+                font-family: Lobster, Comic, Monospace;}
+            .orange-text{color:orange !important;}
+            .smaller-image {width: 100px;
+                border-radius: 15%;}
+            .green-border {border-color: green;
+                border-width: 10px;
+                border-style: solid;}
+            .pink-text{
+                color:pink;
+            }
+            #form-chat-photo{
+                background-color: green;
+            }
+            .injected-text {
+              margin-bottom: -25px;
+              text-align: center;
+            }
+            .box {
+              border-style: solid;
+              border-color: black;
+              border-width: 5px;
+              text-align: center;
+            }
+            .yellow-box {
+              background-color: yellow;
+              padding: 10px;
+            }
+            .red-box {
+              background-color: red;
+              padding: 30px 100px 20px 5px;
+              margin-top: 35px;
+              margin-right: 25px;
+              margin-bottom: 15px;
+              margin-right: 25px;
+
+            }
+            .green-box {
+              background-color: green;
+              padding: 30px;
+              margin: 25px -10px -20px 5px;
+            }
+        </style>
+</head>
+    <body>
+        <h5 class="injected-text">margin</h5>
+            <div class="box yellow-box">
+                <h5 class="box red-box">padding</h5>
+                <h5 class="box green-box">padding</h5>
+            </div>
+
+        <!-- priorité aux class sur les tags, priorité à la derniére class en conflit lecture de haut en bas du fichier css,
+         priorité à l'id sur les class priorité au <style> en ligne et enfin ajout de !important au css -->
+        <h1 class= "pink-text">Hello World</h1>
+        <h2>CatPhotoApp</h2>
+        <p  class = "orange-text" style = "color:white">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <div >
+            <h2 class="orange-text">Article sur la photo</h2>
+            <a href="#">
+            <img class="smaller-image green-border" src="https://bit.ly/fcc-relaxing-cat" alt="chat relaxe"/>
+            </a>
+            <p>Click here for <a href="#">cat photos</a>.</p>
+            <p>Here's a <a href="http://freecodecamp.com"> link to Free Code Camp</a> for you to follow.</p>
+        </div>
+        <div class ="gray-backroung">
+            <ul>
+                <li>lait</li>
+                <li>eau</li>
+                <li>limonade</li>
+            </ul>
+        </div>
+        <div class ="gray-backroung">
+            <p>
+                Top de classement des chats
+            </p>
+            <ol>
+                <li>gartfield</li>
+                <li>kitkat</li>
+            </ol>
+        </div>
+        <div class ="gray-backroung">
+        <p>Things cats love:</p>
+
+        <ul>
+          <li>cat nip</li>
+          <li>laser pointers</li>
+          <li>lasagna</li>
+        </ul>
+        </div>
+        <div class ="gray-backroung">
+        <p>Top 3 things cats hate:</p>
+        <ol>
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+        </div>
+        <form id="form-chat-photo" class="" action="submit-photo" method="post">
+            <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+            <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
+            <label><input type="checkbox" name="personality" checked> Loving</label>
+            <label><input type="checkbox" name="personality"> Lazy</label>
+            <label><input type="checkbox" name="personality"> Energetic</label>
+            <input type="text" name="name" placeholder="url desirée" required value="">
+            <button type="submit">Submit</button>
+        </form>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+    </body>
+</html>
