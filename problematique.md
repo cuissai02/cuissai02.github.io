@@ -9,9 +9,9 @@
 - Introduction (algo stat élementaire et application dans le monde réel)
 - Fondements de l’analyse d’algorithmes
 
-## Les fondamentaux de la résolution de problème
+## Les fondamentaux de la résolution du problème
 
-- (Comment penser la résolution d'un problème)[Algorithme_Définition.md]
+- (Comment penser la résolution du problème)[Algorithme_Définition.md]
 -	1.1 Comprendre le problème
 -	1.2 Choisir entre un algorithme exact ou approximatif
 -	1.3 Choisir une technique de conception d'algorithme
@@ -30,6 +30,14 @@
 	-	1.6.9 Divers
 
 -	1.7 Prouver qu’un algorithme est correct
+	
+	-	1.7.1 Technique de preuve — la contradiction
+	-	1.7.2 Technique de preuve — l'induction mathematique 
+		-	Principe 
+		-	Satisfaction de contraintes (cheval de couleur différente)
+		-	Generalisation de l'induction mathematique 
+		-	L'induction constructive ou substitution
+	
 -	1.8 Analyser un algorithme
 -	1.9 Déterminer les capacités de l’outillage informatique
 -	1.10 Coder un algorithme
